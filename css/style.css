@@ -1,0 +1,148 @@
+
+body{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 15px;
+	line-height: 1.5; /* amount of space between each line */
+	/* font: 15px,1.5,Arial,Helvetica,sans-serif */
+	padding: 0;
+	margin: 0;
+	background-color: grey;
+
+}
+.container{
+	width: 80%; /* % so it can responsive */
+	margin: auto;
+	overflow: hidden;
+}
+
+/*header */
+
+header{
+	background:#35424a;
+	color:#fff; /* color of text */
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: red 3px solid;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+ul{
+	/*unordered lists have padding by default */
+	padding: 0;
+	margin: 0;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px; /*top right bottom left */
+}
+/* float the CESS CLUB to the left and the nav to the right */
+header #branding{
+	float: left;
+}
+header #branding h1{
+	margin: 0;
+}
+header nav{
+	float: right;
+	/*move the nav down a little */
+	margin-top: 10px;
+}
+header .highlight, header .current a{
+	color: red;
+	font-weight: bold;
+}
+
+/*when we click on the link it should hover */
+header a:hover{
+	color: #ccc;
+	font-weight: bold;
+}
+
+#showcase{
+
+	min-height: 400px;
+	background: url('../img/showcase2.jpg') no-repeat red ;
+	text-align: center;
+	color: #fff;
+}
+/*move the paragragh down */
+#showcase h1{
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-size: 50px;
+
+}
+
+#showcase p{
+	font-size: 20px;
+}
+#newsletter{
+	background: #35424a;
+	padding: 15px;
+	color: #fff;
+}
+#newsletter h1{
+	float: left;
+}
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+	padding: 4px;
+	height: 25px;
+	height: 25px;
+}
+
+/*style the button_1 class globally */
+.button_1{
+	height: 38px;
+	background: #e8491d;
+	border:0;
+	padding-right: 20px;
+	padding-right: 20px;
+	color: #fff;
+}
+
+/*boxes */
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box{
+	float: left;
+	width: 80%;
+	padding :10px;
+	text-align: center;
+
+
+}
+
+#boxes .box img{
+	float: left;
+}
+
+footer{
+	margin-top: 20px;
+	padding: 20px;
+	color: #fff;
+	background: #e8491d;
+	text-align: center;
+
+}
+
+/*sidebar */
+
+aside#sidebar{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
